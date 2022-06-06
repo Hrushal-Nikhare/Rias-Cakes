@@ -1,3 +1,6 @@
+// Add this to tailwind.config.js
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     '*.{html,js}',
@@ -5,6 +8,12 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    colors: {
+      brand: "#FF5A5F",
+      dark: "#072B40",
+      mid: "#82AEB3",
+      light: "#FAFAFA"
+    },
     screens: {
       sm: '640px',
       md: '768px',

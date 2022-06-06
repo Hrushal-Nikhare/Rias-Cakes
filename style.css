@@ -105,7 +105,7 @@ font-family: 'Nanum Gothic', sans-serif;
   text-align: center;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  text-decoration: underline dashed #db7c87;
+  text-decoration: underline dashed #FF5A5F;
 }
 .Content{
   font-size: 1.25em;
@@ -132,15 +132,13 @@ font-family: 'Nanum Gothic', sans-serif;
   font-size: 10vw;
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
   width: 100%;
   height: 100%;
-  color:#F10086;
+  color:#FF5A5F;
   /* text-decoration: underline double #e0b74e; */
 }
 .heading b{
-	color:#db7c87;
+	color:#FF5A5F;
 }
 /* Gradient Scroll Bar */
 
@@ -164,15 +162,6 @@ font-family: 'Nanum Gothic', sans-serif;
 }
 
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-	.parallax {
-		background-attachment: scroll;
-	}
-}
-.parallax-window{
-	height: 100vh;
-}
 body {
 	background: #eeeeee;
 	font-family: 'Varela Round', sans-serif;
@@ -220,17 +209,17 @@ body {
 
 .navbar .navbar-brand b {
 	font-weight: bold;
-	color: #db7c87;
+	color: #FF5A5F;
 }
 
 .navbar .navbar-nav a:hover,
 .navbar .navbar-nav a:focus {
-	color: #db7c87 !important;
+	color: #FF5A5F !important;
 }
 
 .navbar .navbar-nav a.active,
 .navbar .navbar-nav a.active:hover {
-	color: #db7c87 !important;
+	color: #FF5A5F !important;
 	background: transparent !important;
 }
 
